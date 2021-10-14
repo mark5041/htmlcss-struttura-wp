@@ -12,9 +12,8 @@ html {
 
 .container {
     width: 80%;
-    background-color: beige;
     margin: 0 auto;
-    height: 20px;
+    height: 100%;
 }
 
 .light-blue{
@@ -171,17 +170,17 @@ html {
 }
 
 .column-left {
-    width: calc(20% - 0.1em);
+    width: 20%;
     height: 15em;
 }
 
 .column-right {
-    width: calc(20% - 0.1em);
+    width: 20%;
     height: 15em;
 }
 
 .column-mid {
-    width: 55%;
+    width: calc(60% - 2em);
     height: 15em;
 }
 
