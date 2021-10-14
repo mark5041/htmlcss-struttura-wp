@@ -1,13 +1,71 @@
 /* global */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 100%;
 }
 
+.container {
+    width: 80%;
+    background-color: beige;
+    margin: 0 auto;
+    height: 20px;
+}
+
+.mt-1 {
+    margin-top: 0.5em;
+}
+
+.mt-2 {
+    margin-top: 1em;
+}
+
+.mt-3 {
+    margin-top: 1.5em;
+}
+
+.mt-4 {
+    margin-top: 2em;
+}
+
+.light-blue{
+    background-color: #abcfe7;
+}
+
 /* global */
+
+
+
+/* nav */
+
+.nav {
+    background-color: #e579e6;
+
+}
+
+/* nav */
+
+
+
+/* carusel */
+
+.carusel{
+    background-color: #e1d67a;
+}
+
+/* carusel */
+
+
+
+/* layout */
+
+.layout{
+    background-color:  #0086ff;
+}
+
+/* layout */
