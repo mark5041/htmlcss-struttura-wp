@@ -21,6 +21,12 @@ html {
     background-color: #abcfe7;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* global */
 
 
@@ -157,16 +163,36 @@ html {
 
 .layout{
     background-color:  #0086ff;
+    height: 20em;
+}
+
+.row{
+    height: 3em;
+}
+
+.column-left {
+    width: calc(20% - 0.1em);
+    height: 15em;
+}
+
+.column-right {
+    width: calc(20% - 0.1em);
+    height: 15em;
+}
+
+.column-mid {
+    width: 55%;
+    height: 15em;
 }
 
 /* layout */
 
 
 
-/* layout */
-
-.column{
-    background-color:  #abcfe7;
+/* footer */
+.foot {
+    background-color: #8801fe;
+    height: 2em;
 }
 
-/* layout */
+/* footer */
